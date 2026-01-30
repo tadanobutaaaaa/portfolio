@@ -40,7 +40,7 @@ export default function ProjectCard({title, imageSrc, year, categories}: Project
                     width={400}
                     height={225}
                     alt="プロジェクトの画像"
-                    className="mb-4"
+                    className="mb-4 object-contain aspect-[4/3]"
                 />
                 <div className="flex gap-2">
                     <CardTitle className="text-xl">{title}</CardTitle>

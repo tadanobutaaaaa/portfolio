@@ -14,14 +14,14 @@ const projects: Project[] = [
         title: "VRC-Avatar-Library",
         imageSrc: "/images/thumbnails/VRC-Avatar-Library.png",
         year: "2025",
-        categories: ["Desktop App", "Chrome-Extension"]
+        categories: ["Desktop-App", "Chrome-Extension"]
     },
     {
         key: "portfolio",
         title: "portfolio",
-        imageSrc: "",
+        imageSrc: "/images/thumbnails/inProduction.png",
         year: "2026",
-        categories: ["website"]
+        categories: ["Website"]
     }
 ]
 
