@@ -42,10 +42,9 @@ export default function ProjectCard({title, imageSrc, year, categories}: Project
                     alt="プロジェクトの画像"
                     className="mb-4 object-contain aspect-[4/3]"
                 />
-                <div className="flex gap-2">
+                <div className="flex gap-2 mb-3">
                     <CardTitle className="text-xl">{title}</CardTitle>
-                    <Badge 
-                        className="my-2"
+                    <Badge
                         variant="secondary"
                     >{year}</Badge>
                 </div>

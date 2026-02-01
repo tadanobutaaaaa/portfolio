@@ -1,16 +1,17 @@
 export default function Skills() {
     return (
-        <div className="flex flex-col items-center gap-5">
+        <div className="flex flex-col items-center gap-20">
             <h2 className="text-4xl font-bold">Skills</h2>
-            <h2 className="text-2xl font-bold">Programming</h2>
-            <p>プログラミングで培ったスキルなどを紹介します。<br/></p>
-            <div>
-                <h3 className="text-xl font-semibold">Languages</h3>
-                <i className="devicon-javascript-plain colored"></i>
-                <h3 className="text-xl font-semibold">Freameworks</h3>
+            <div className="flex flex-col items-center gap-5">
+                <h2 className="text-2xl font-bold">プログラミング</h2>
+                <h3 className="text-xl font-semibold">言語</h3>
+                <p>Python, Golang, JavaScript, TypeScript</p>
+                <h3 className="text-xl font-semibold">フレームワーク等</h3>
+                <p>React</p>
             </div>
-            <h2 className="text-2xl font-bold">qualification</h2>
-            <div>
+            <div className="flex flex-col items-center gap-5">
+                <h2 className="text-2xl font-bold">資格</h2>
+                <p>ITパスポート, Pythonエンジニア認定基礎試験</p>
             </div>
         </div>
     );
