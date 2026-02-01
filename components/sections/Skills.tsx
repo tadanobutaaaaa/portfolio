@@ -2,6 +2,7 @@ export default function Skills() {
     return (
         <div className="flex flex-col items-center gap-20">
             <h2 className="text-4xl font-bold">Skills</h2>
+            {/*なにか一言入れたい */}
             <div className="flex flex-col items-center gap-5">
                 <h2 className="text-2xl font-bold">プログラミング</h2>
                 <h3 className="text-xl font-semibold">言語</h3>
